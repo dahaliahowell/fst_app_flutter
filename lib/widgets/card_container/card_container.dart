@@ -45,6 +45,7 @@ class CardContainer extends StatelessWidget {
           width: queryData.size.shortestSide * 0.40,
           icon: Icons.star,
           title: "Events",
+          route: eventsRoute,
         ),
       ],
       "mobile_landscape": [
@@ -79,6 +80,7 @@ class CardContainer extends StatelessWidget {
           width: queryData.size.shortestSide * 0.40,
           icon: Icons.star,
           title: "Events",
+          route: eventsRoute,
         ),
       ]
     };

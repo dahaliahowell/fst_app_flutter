@@ -17,3 +17,6 @@ const appPreferencesRoute = '/appConfig';
 
 /// [MapView] route
 const mapRoute = '/map';
+
+/// [EventsView] route
+const eventsRoute = '/events';

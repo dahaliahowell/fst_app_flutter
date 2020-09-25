@@ -6,6 +6,7 @@ import 'package:fst_app_flutter/screens/contact_screen/contact_detail_page.dart'
 import 'package:fst_app_flutter/screens/contact_screen/contact_view.dart';
 import 'package:fst_app_flutter/screens/home_screen/home_view.dart';
 import 'package:fst_app_flutter/screens/scholarship_screen/scholarship_view.dart';
+import 'package:fst_app_flutter/screens/events_screen/events_view.dart';
 import 'routes.dart';
 
 /// Handles routing in the app
@@ -23,6 +24,8 @@ class Router {
         return MaterialPageRoute(builder: (context) => AppPreferencesView());
       case mapRoute:
         return MaterialPageRoute(builder: (context) => CampusMapView());
+      case eventsRoute:
+        return MaterialPageRoute(builder: (context) => EventsView());
       default:
         return MaterialPageRoute(builder: (context) => HomeView());
     }
