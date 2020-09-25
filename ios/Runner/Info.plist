@@ -50,6 +50,8 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<key>NSCalendarsUsageDescription</key>
+	<string>ADD_EVENT_TO_CALENDAR</string>
 	<false/>
 </dict>
 </plist>
